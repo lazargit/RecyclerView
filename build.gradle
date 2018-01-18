@@ -6,6 +6,7 @@ buildscript {
         jcenter()
         mavenCentral() // add repository
         maven { url 'https://maven.google.com' }
+        google()
     }
 
     dependencies {
@@ -23,6 +24,7 @@ allprojects {
             url "https://jcenter.bintray.com"
         }
        // jcenter()
+        google()
     }
 }
 
